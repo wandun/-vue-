@@ -1,0 +1,13 @@
+测试步骤
+
+1 、 请先在启动weixinLoginNodeServer.js中配置你的appid  以及  你的app_secret
+
+2 、 启动weixinLoginNodeServer
+     命令 ： node weixinLoginNodeServer
+     
+3 、在HelloWorld.vue 配置回调地址redirect_uri
+
+4 、在HelloWorld.vue 的mounted函数中配置appid
+
+5 、 启动weixinlogindemo
+     命令  npm run dev
